@@ -9,10 +9,18 @@
 </head>
 <body>
 	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-	
+    
 	<img class="circular--square--small" class="pequeña" src="Mifoto.jpg" alt="">
-	<h2>Informacion Personal</h2>
+
+	<nav>
+    	<a href="#informacion" class="nav-enlace">Informacion personal</a>
+    	<a href="#sobremi" class="nav-enlace">Sobre mi</a>
+    	<a href="#lenguaje" class="nav-enlace">Conocimiento de lenguajes de programacion</a>
+    	<a href="#generales" class="nav-enlace">Conocientos generales</a>
+    	<a href="#sugerencia" class="nav-enlace">Enviame tu sugerencia</a>
+    </nav>
+
+	<h2 id="informacion">Informacion Personal</h2>
 	<div id="pa">
 		<div class="container">
 	  	  <div class= "row">
@@ -31,7 +39,7 @@
 	   </div>
     </div>
     </div>
-	<h2 id="centro">Sobre mi..</h2>
+	<h2 id="centro"id="sobremi">Sobre mi..</h2>
 	<div class="bg-success p-2 text-dark bg-opacity-50">
 	<p id="pa" id="p">
 		Estudiante de ingeniería de sistemas, amante de la tecnología, desarrollo de software y videojuegos.
@@ -40,7 +48,7 @@
         Actualmente realizando un curso base de Front End.
 	</p>
 	</div>
-	<h2 class="tex1">Conocimiento de lenguajes de programación</h2>
+	<h2 class="tex1" id="lenguaje">Conocimiento de lenguajes de programación</h2>
 	<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -70,7 +78,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  <h2 class="tex1">Conocimientos generales</h2>
+  <h2 class="tex1" id="generales">Conocimientos generales</h2>
 </div>
 	<p>
   <button class="btn btn-primary" class="tex1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
@@ -94,7 +102,7 @@
   </div>
 </div>
 	  <button type="button" id="pa">Enviame tu sugerencia:</button>
-	  <div class="container">
+	  <div class="container" id="sugerencia">
 	  	<div class= "row">
 	  		<div class="col-4">
                <div class="mb-3">

@@ -27,6 +27,23 @@ img {
   background-color: #949CA5;
 }
 
+.nav-enlace {
+  display: inline-block;
+  background: grey;
+  color:Black;
+  padding:15px 30px;
+  text-decoration: none;
+}
+
+.nav-enlace:hover{
+  background: whitesmoke;
+}
+
+nav {
+  background: darkgrey;
+  padding: 10px;
+}
+
 .circular--square--small {
    width: 200px;
   height: 200px;
